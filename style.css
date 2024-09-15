@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Game{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.box{
+    height: 140px;
+    width: 140px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    font-size: 40px;
+    color: black;
+}
+.btn-restart{
+    padding: 15px;
+    border-radius:10px ;
+    border: none;
+    font-size: 15px;
+}
+
+.btn-new{
+    padding: 15px;
+    border-radius:10px ;
+    border: none;
+    font-size: 15px;
+}
+.msg-container{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    font-size: 30px;
+}
+
+.hide{
+    display: none;
+}
